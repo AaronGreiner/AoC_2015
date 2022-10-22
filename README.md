@@ -2,7 +2,7 @@
 <https://adventofcode.com/2015>
 ***
 ###### Output Day 1
->First Basement: **1783**<br><sub>Bonus</sub>
+>First Basement: **1783**<sub>Bonus</sub><br>
 >End Floor: **232**
 ***
 ###### Output Day 2
