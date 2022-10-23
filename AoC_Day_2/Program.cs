@@ -16,8 +16,8 @@ namespace AoC_Day_2
             {
                 string[] dim = item.Split('x');
 
-                total_square_feet_wrapping_paper += getSqareFeetWrappingPaperNeeded(Int32.Parse(dim[0]), Int32.Parse(dim[1]), Int32.Parse(dim[2]));
-                total_length_ribbon += getLengthRibbonNeeded(Int32.Parse(dim[0]), Int32.Parse(dim[1]), Int32.Parse(dim[2]));
+                total_square_feet_wrapping_paper += GetSqareFeetWrappingPaperNeeded(Int32.Parse(dim[0]), Int32.Parse(dim[1]), Int32.Parse(dim[2]));
+                total_length_ribbon += GetLengthRibbonNeeded(Int32.Parse(dim[0]), Int32.Parse(dim[1]), Int32.Parse(dim[2]));
             }
 
             Console.WriteLine("Total Square Feet Wrapping Paper: " + total_square_feet_wrapping_paper);
@@ -25,7 +25,7 @@ namespace AoC_Day_2
             Console.ReadLine();
         }
 
-        private static int getSqareFeetWrappingPaperNeeded(int l, int w, int h)
+        private static int GetSqareFeetWrappingPaperNeeded(int l, int w, int h)
         {
             int area_1 = l * w;
             int area_2 = w * h;
@@ -38,7 +38,7 @@ namespace AoC_Day_2
             return total;
         }
 
-        private static int getLengthRibbonNeeded(int l, int w, int h)
+        private static int GetLengthRibbonNeeded(int l, int w, int h)
         {
             int[] sides = new int[] { l, w, h };
             int remove = sides.Max();

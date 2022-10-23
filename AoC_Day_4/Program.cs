@@ -19,7 +19,7 @@ namespace AoC_Day_4
 
             while (true)
             {
-                hash = getMD5Hash(input + current_number.ToString());
+                hash = GetMD5Hash(input + current_number.ToString());
 
                 if (five_zero_number == 0 && hash.StartsWith("00000"))
                 {
@@ -44,7 +44,7 @@ namespace AoC_Day_4
             Console.ReadLine();
         }
 
-        private static string getMD5Hash(string input)
+        private static string GetMD5Hash(string input)
         {
             byte[] result = md5.ComputeHash(Encoding.Default.GetBytes(input));
 
