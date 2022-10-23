@@ -13,3 +13,7 @@
 >Houses with At Least One Present: **2572**<br>
 >Houses with At Least One Present (Robo): **2631** <sup>*Bonus</sup>
 ***
+###### Output Day 4
+>Lowest possible Number (five zeros): **6386**<br>
+>Lowest possible Number (six zeros): **9958218** <sup>*Bonus</sup>
+***
