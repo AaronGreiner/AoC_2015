@@ -9,3 +9,6 @@
 >Total Square Feet Wrapping Paper: **1586300**<br>
 >Total Length Ribbon: **3737498** <sup>*Bonus</sup>
 ***
+###### Output Day 3
+>Houses with At Least One Present: **2572**<br>
+***
