@@ -17,3 +17,7 @@
 >Lowest possible Number (five zeros): **6386**<br>
 >Lowest possible Number (six zeros): **9958218** <sup>*Bonus</sup>
 ***
+###### Output Day 5
+>Nice Strings: **238**<br>
+>Nicer Strings: **69** <sup>*Bonus</sup>
+***
