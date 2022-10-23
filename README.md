@@ -11,4 +11,5 @@
 ***
 ###### Output Day 3
 >Houses with At Least One Present: **2572**<br>
+>Houses with At Least One Present (Robo): **2631** <sup>*Bonus</sup>
 ***
